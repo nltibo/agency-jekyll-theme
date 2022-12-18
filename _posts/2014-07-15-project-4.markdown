@@ -1,15 +1,20 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Numerical revolution
+subtitle: subtitle
 layout: default
 modal-id: 4
 date: 2014-07-15
 img: treehouse.png
 thumbnail: treehouse-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: December 2022
+client: dlab
+category: Applied Data Analysis
+description: The numerical revolution was a period of rapid development in the field of mathematics and computing that took place in the 20th century. It was marked by the widespread use of computers, which made it possible to perform complex calculations and simulations quickly and accurately. The numerical revolution also saw the development of new mathematical techniques and theories that were essential for the advancement of science and technology. Some of the key developments during this period include the development of the electronic computer, the creation of new programming languages, and the emergence of big data and data science. The numerical revolution has had a profound impact on a wide range of fields, including physics, engineering, finance, and biology, and has laid the foundation for many of the technological advancements of the 21st century.
+count-movies: xx
+box-office: xx
+genres: xx
+stars: xx
+wordcloud: 
+wordcloud-alt: worcloud-alt
 ---

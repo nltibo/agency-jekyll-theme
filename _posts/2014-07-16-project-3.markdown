@@ -1,15 +1,20 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Segregation
+subtitle: subtitle
 layout: default
 modal-id: 3
 date: 2014-07-16
 img: golden.png
 thumbnail: golden-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: December 2022
+client: dlab
+category: Applied Data Analysis
+description: Segregation refers to the separation of people based on race, ethnicity, religion, or other social or cultural characteristics. It is a longstanding issue in many societies and has often been used as a means of discrimination and oppression. Throughout history, segregation has taken many forms, including the separation of schools, housing, and public facilities based on race. In the United States, segregation was legally enforced through the "Jim Crow" laws in the South until the Civil Rights Act of 1964 and the Voting Rights Act of 1965 were passed. Despite these efforts, segregation persists in various forms and is still a major issue in many parts of the world.
+count-movies: xx
+box-office: xx
+genres: xx
+stars: xx
+wordcloud:
+wordcloud-alt: worcloud-alt
 ---

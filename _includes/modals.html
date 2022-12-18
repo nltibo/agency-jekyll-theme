@@ -15,7 +15,13 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <p class="text-self">{{ post.description }}</p>
+                            <p class="text-left">Number of movies classified as such : {{ post.count-movies }}</p>
+                            <p class="text-left">Mean Box-office revenue : {{ post.box-office }}</p>
+                            <p class="text-left">Main genres : {{ post.genres }}</p>
+                            <p class="text-left">Mean sentiment : {{ post.stars }} /5</p>
+                            <img class="img-responsive img-centered" src="img/wordcloud/{{ post.wordcloud }}" alt="{{ post.wordcloud-alt }}">
+
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
