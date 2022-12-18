@@ -27,6 +27,14 @@ p.large {
     font-size: 16px;
 }
 
+p.text-self {
+    font-size: 14px;
+    line-height: 1.75;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
 a,
 a:hover,
 a:focus,
@@ -59,6 +67,8 @@ h6 {
 
 .img-centered {
     margin: 0 auto;
+    text-align:center;
+    display:block;
 }
 
 .bg-light-gray {
