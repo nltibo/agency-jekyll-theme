@@ -4,8 +4,8 @@ subtitle: subtitle
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: segregation.png
+thumbnail: segregation-thumbnail.png
 alt: image-alt
 project-date: December 2022
 client: dlab
@@ -15,6 +15,6 @@ count-movies: xx
 box-office: xx
 genres: xx
 stars: xx
-wordcloud:
+wordcloud: Segregation-wordcloud.png
 wordcloud-alt: worcloud-alt
 ---

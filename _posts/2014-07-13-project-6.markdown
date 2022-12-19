@@ -4,8 +4,8 @@ subtitle: subtitle
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: LGBT.png
+thumbnail: LGBT-thumbnail.png
 alt: image-alt
 project-date: December 2022
 client: dlab
@@ -15,7 +15,7 @@ count-movies: xx
 box-office: xx
 genres: xx
 stars: xx
-wordcloud:
-wordcloud-alt: worcloud-alt
+wordcloud: LGBT-wordcloud.png
+wordcloud-alt: wordcloud-alt
 
 ---

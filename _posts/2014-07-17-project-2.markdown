@@ -4,17 +4,17 @@ subtitle: subtitle
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: tech.png
+thumbnail: tech-thumbnail.png
 alt: image-alt
 project-date: December 2022
 client: dlab
 category: Applied Data Analysis
-description: At the end of the last century, there was a rapid development of new technologies that greatly impacted society and the way we live our lives. One of the most significant technological developments was the widespread adoption of the internet, which revolutionized communication and information-sharing. The rise of personal computers and mobile devices also made it easier for people to access and use technology in their daily lives. In addition, there were significant advancements in fields such as biotechnology, artificial intelligence, and renewable energy, which have continued to shape the world we live in. Overall, the end of the last century was a time of great technological change and innovation that has had far-reaching consequences.
+description: The Digital Revolution, also known as Industry 3.0, refers to the integration of digital technology into all aspects of society, including business, education, and communication. It is characterized by the widespread adoption of the internet, which revolutionized communication and information-sharing. Also, personal computers and mobile devices made it easier for people to access and use technology in their daily lives. In addition, it is also marked by the development of new technologies such as artificial intelligence, the Internet of Things (IoT), and blockchain. The Digital Revolution has had a major impact on the way we live and work, leading to significant changes in industries, the global economy, and the way we communicate and interact with one another. Overall, the end of the last century was a time of great technological change and innovation that has had far-reaching consequences.
 count-movies: xx
 box-office: xx
 genres: xx
 stars: xx
-wordcloud:
+wordcloud: Tech-wordcloud.png
 wordcloud-alt: worcloud-alt
 ---

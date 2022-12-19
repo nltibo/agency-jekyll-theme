@@ -16,5 +16,5 @@ box-office: xx
 genres: xx
 stars: xx
 wordcloud: WW2-wordcloud.png
-wordcloud-alt: worcloud-alt
+wordcloud-alt: wordcloud-alt
 ---

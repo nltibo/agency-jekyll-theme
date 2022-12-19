@@ -4,8 +4,8 @@ subtitle: subtitle
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+img: space.png
+thumbnail: space-thumbnail.png
 alt: image-alt
 project-date: December 2022
 client: dlab
@@ -15,7 +15,7 @@ count-movies: xx
 box-office: xx
 genres: xx
 stars: xx
-wordcloud:
+wordcloud: Space-wordcloud.png
 wordcloud-alt: worcloud-alt
 
 ---

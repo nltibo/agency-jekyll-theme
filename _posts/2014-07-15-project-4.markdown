@@ -4,8 +4,8 @@ subtitle: subtitle
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: Num.png
+thumbnail: Num-thumbnail.png
 alt: image-alt
 project-date: December 2022
 client: dlab
@@ -15,6 +15,6 @@ count-movies: xx
 box-office: xx
 genres: xx
 stars: xx
-wordcloud: 
+wordcloud: Num-wordcloud.png
 wordcloud-alt: worcloud-alt
 ---
