@@ -18,6 +18,11 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-icon {
+    font-size: 3vw;
+    text-align: center;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
