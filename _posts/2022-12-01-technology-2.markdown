@@ -3,7 +3,7 @@ title: Technology
 subtitle: subtitle
 layout: default
 modal-id: 2
-date: 2014-07-17
+date: 2022-12-01
 img: tech.png
 thumbnail: tech-thumbnail.png
 alt: image-alt
@@ -17,4 +17,5 @@ genres: xx
 stars: xx
 wordcloud: Tech-wordcloud.png
 wordcloud-alt: worcloud-alt
+analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
 ---

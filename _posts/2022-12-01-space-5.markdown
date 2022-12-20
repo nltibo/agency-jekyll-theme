@@ -3,7 +3,7 @@ title: Space race
 subtitle: subtitle
 layout: default
 modal-id: 5
-date: 2014-07-14
+date: 2022-12-01
 img: space.png
 thumbnail: space-thumbnail.png
 alt: image-alt
@@ -17,5 +17,5 @@ genres: xx
 stars: xx
 wordcloud: Space-wordcloud.png
 wordcloud-alt: worcloud-alt
-
+analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
 ---

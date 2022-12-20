@@ -1,0 +1,21 @@
+---
+title: AIDS
+subtitle: subtitle
+layout: default
+modal-id: 7
+date: 2022-12-01
+img: AIDS.png
+thumbnail: AIDS-thumbnail.png
+alt: image-alt
+project-date: December 2022
+client: dlab
+category: Applied Data Analysis
+description: 
+count-movies: xx
+box-office: xx
+genres: xx
+stars: xx
+wordcloud: AIDS-wordcloud.png
+wordcloud-alt: wordcloud-alt
+analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+---
