@@ -11,6 +11,7 @@ project-date: December 2022
 client: dlab
 category: Applied Data Analysis
 description: World War 1, also known as the Great War, was a global conflict that lasted from 1914 to 1918. It involved the majority of the world's nations, including all of the great powers, divided between the Allies and the Central Powers. The conflict arose mainly due to militarism, alliances, imperialism, and nationalism, and it resulted in millions of deaths and significant social, political, and economic changes. The war ended with the defeat of the Central Powers and the signing of the Treaty of Versailles, which imposed harsh penalties on Germany. The legacy of World War 1 continues to shape international relations and global politics to this day.
+ID: WW1
 count-movies: 127
 box-office: 30
 genres: Drama, Comedy, Action.
@@ -18,7 +19,7 @@ stars: xx
 dictionnary: ww1, world war 1, 1914, 1918, allies, armistice, central powers, conscription, front line, joffre, kaiser, marne, mustard gas, no man’s land, pétain, u boats, somme, treaty of versailles, trench, verdun, western front, zeppelin, artillery, doughboy, duckboards, dreadnought, mobilize, prussia, schlieffen plan, tsar, archduke ferdinand, red baron, big four, christmas truce, wilson, lusitania, battalion, triple entente, great war, flamethrower, mills bomb, storm troop, ace, recco, tailspin, boche, wipers, kiwi, aussie, cootie, flanders, mud, war effort, league of nations.
 wordcloud: WW1-wordcloud.png
 wordcloud-alt: wordcloud-alt
-analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+analysis: In the WWI word cloud plot, the name Wilson appears the most frequently in the movie plot summaries. Wilson was the president that led America into war against Germany in 1917 and the leading founder of the League of Nations, an intergovernmental organization whose aim was to maintain world peace after WWI. Then, the word “Ace” abundantly appears in the plot summaries. An ace is a military aviator who has shot down at least five enemy aircrafts, the term originated in WWI when a French soldier shot five aircrafts. Vocabulary associated with family and fraternity emerge often in WWI movies, such as “brother”, “friend”, “wife”, “father” and “parents”, which reflects the profound effect the absence of fathers and brothers had on family life.
 movie-name: 13 Men and a Gun
 movie-year: 1938
 movie-poster: WW1-poster.png

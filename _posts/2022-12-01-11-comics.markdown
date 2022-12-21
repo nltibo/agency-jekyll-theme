@@ -11,6 +11,7 @@ project-date: December 2022
 client: dlab
 category: Applied Data Analysis
 description: Comics are a medium that tells stories through the use of sequential art, often in the form of panels containing illustrations and text. Comics have a long history dating back to the late 1800s, and have evolved over the years to include a variety of genres such as action, adventure, romance, and comedy. Comics are often serialized, with each issue building upon the events of previous issues to create a larger narrative. They can be published in a variety of formats, including physical comic books, graphic novels, and online webcomics. Comics have had a significant impact on popular culture, with many iconic characters and storylines being adapted into films, television shows, and other media.
+ID: Comics
 count-movies: 478
 box-office: 135
 genres: Action, Thriller, Drama.
@@ -18,7 +19,7 @@ stars: xx
 dictionnary: superman, supervillains, superhero, hero, kryptonite, clark kent, gotham, warner bros, walt disney, mickey mouse, donald duck, technicolor, batman, super power, marvel, dc, wonder woman, thor, catwoman, batsuit, batmobile, shadow, dick tracy, flash gordon, teleportation, justice, super evil, cartoons, fight evil, masked, iron man.
 wordcloud: Comics-wordcloud.png
 wordcloud-alt: wordcloud-alt
-analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+analysis: 'Comic book movies in the movie plot dataframe are majoritarily divided into two main subthemes, corresponding to the two most famous superheroes to date: Superman and Batman. Batman’s lexical field appears in the word cloud plot with the words “Batman”, “Bruce”, referring to Bruce Wayne (Batman’s alias), “Gotham” which is a fictional city best known as the home of Batman and “Shadow” a mysterious crimefighter of Gotham City. Then words relating to superman frequently appear, such as “Superman”, “Clark” which is Superman’s alter ego and “Lois”, Superman’s primary love interest. With no surprice, the words “hero” and “justice” also represent an important proportion of the words used to describe the comic book movie plot summaries.'
 movie-name: O' Faby
 movie-year: 1993
 movie-poster: comics-poster.png

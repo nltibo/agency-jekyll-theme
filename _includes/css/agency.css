@@ -10,16 +10,6 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-.img-poster { position: relative; }
-
-.img-poster .top {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }

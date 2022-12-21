@@ -11,6 +11,7 @@ project-date: December 2022
 client: dlab
 category: Applied Data Analysis
 description: Rock music has a long and rich history that dates back to the 1950s. It originated in the United States, drawing heavily from blues and country music, and it quickly gained popularity around the world. In the 1960s, rock music underwent a major transformation with the emergence of bands who helped to popularize the genre and establish it as a mainstream form of music. In the 1970s and 1980s, rock music diversified and spawned numerous subgenres, such as hard rock, heavy metal, punk, and alternative rock, each with its own distinct sound and style. Today, rock music remains a popular and influential genre, with many contemporary artists drawing inspiration from its rich history and evolving it in new and innovative ways.
+ID: Rock
 count-movies: 1082
 box-office: 21
 genres: Drama, Comedy, Musical.
@@ -18,7 +19,7 @@ stars: xx
 dictionnary: rock and roll, jazz, rhythm, saxophone, electric guitars, boswell sisters, rosette, gramophone, swing, race music, elvis presley, johnyy cash, music, musician, singer,  band, album, vinyl, rock star, music award, sing, tour.
 wordcloud: Rock-wordcloud.png
 wordcloud-alt: wordcloud-alt
-analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+analysis: The words that stand out the most in this word cloud plot are “band”, “music”, “love”, “sing”, “singer” and “song” which all explicitly evoke the profession of being a musician and of performing on stage. However, this vocabulary is not specific to the Rock genre, making it hard to identify the Rock era in the plot. Therefore, the dictionary used to classify movies into the Rock’n’Roll era might not be well defined or the movie dataset might not contain important movies narrating Rock’n’Roll.
 movie-name: Blueberry Hill
 movie-year: 1988
 movie-poster: rock-poster.png

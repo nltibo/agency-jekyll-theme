@@ -11,6 +11,7 @@ project-date: December 2022
 client: dlab
 category: Applied Data Analysis
 description: The evolution of LGBTQ+ rights has been a long and ongoing process, with significant advancements and setbacks throughout history. In many societies, LGBTQ+ individuals have faced discrimination, persecution, and violence because of their sexual orientation or gender identity. However, there have also been significant efforts to promote equality and acceptance for LGBTQ+ people. In the 20th century, there were a number of major milestones in the fight for LGBTQ+ rights, including the Stonewall riots in 1969, which are considered a turning point in the modern LGBTQ+ rights movement. In the decades since, there have been many legal and cultural changes that have improved the lives of LGBTQ+ people, including the decriminalization of homosexuality in many countries, the legalization of same-sex marriage in numerous countries, and the increased representation and visibility of LGBTQ+ people in media and society. Despite these advancements, LGBTQ+ people still face discrimination and prejudice in many parts of the world, and the fight for equality and acceptance continues.
+ID: LGBT
 count-movies: 316
 box-office: 10
 genres: Drama, LGBT, Comedy.
@@ -18,7 +19,7 @@ stars: xx
 dictionnary: lesbian, gay, bisexual, transgender, gender identity, non-cisgender, queer, gender variance, homosexuality, gay liberation, stereotype, aids stigma, feminism, gay rights, daughters of bilitis, patriarchal, marginalize.
 wordcloud: LGBT-wordcloud.png
 wordcloud-alt: wordcloud-alt
-analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+analysis: Of course, two words that appear frequently in movie plot summaries describing an LGBTQ+ themed story are “gay” and “lesbian”, for self-explanatory reasons. Then, vocabularies relating to love and relationships are often present in the summaries, for example the words “relationship”, “love”, “family”, “couple”, “together” and “friend” are abundantly used. Words that evoke coming out of the closet, a metaphor used to describe LGBT people’s disclosure of their sexual orientation to themselves and to their entourage, emerge in the word cloud plot such as “father”, “mother” and “tell”. Since a big part of the LGBTQ+ community is defined by sexual orientations, it is also not surprising to find the words “sex” and “sexual” in the plot above.
 movie-name: Greetings from Out Here
 movie-year: 1993
 movie-poster: LGBT-poster.png

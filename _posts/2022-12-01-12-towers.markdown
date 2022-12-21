@@ -11,6 +11,7 @@ project-date: December 2022
 client: dlab
 category: Applied Data Analysis
 description: Radical Islamic terrorism refers to the use of violence and intimidation by extremist groups or individuals who seek to promote their interpretation of Islam and establish an Islamic state or caliphate. These groups often target civilians, including Muslims who do not adhere to their ideology, as well as government and military targets. Radical Islamic terrorism has been a major global concern since the September 11th attacks in 2001, and it continues to pose a significant threat to national and international security. Many governments and international organizations have implemented strategies to combat radical Islamic terrorism, including military action, intelligence gathering, and diplomatic efforts to address the root causes of radicalization.
+ID: Towers
 count-movies: 80
 box-office: 21
 genres: Drama, Action, Thriller
@@ -18,7 +19,7 @@ stars: xx
 dictionnary: september 11 attacks, twin towers,  world trade center, wtc, terrorist , al-qaeda, hijackers, boeing 767, destruction, american airlines flight 11,  osama bin laden.
 wordcloud: Towers-wordcloud.png
 wordcloud-alt: wordcloud-alt
-analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+analysis: The September 11 attacks were suicide terrorist attacks carried out by Al-Qaeda against the United States, during which terrorists hijacked four commercial airlines that crashed into the Twin Towers of the World Trade Center and into the Pentagon. This explains the significant presence of the words “hijacked”, “flight”, “passenger”, “kill”, “destruction” and  “American” in the word cloud plots representing the frequencies of words found in the movie plot summaries recounting the tragic events of 9/11. The word “war” also appears in the plot since the attack initiated the Global War on Terrorism (GWOT), declared by the United States against Al-Qaeda and the Islamist State.
 movie-name: Zero Dark Thirty
 movie-year: 2013
 movie-poster: towers-poster.png

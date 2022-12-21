@@ -11,6 +11,7 @@ project-date: December 2022
 client: dlab
 category: Applied Data Analysis
 description: The nuclear weapon is a type of explosive device that utilizes nuclear reactions to release a tremendous amount of energy in the form of an explosion. The first nuclear weapon was developed by the United States during World War II as part of the Manhattan Project, and it was used to drop atomic bombs on the Japanese cities of Hiroshima and Nagasaki in 1945. Since then, several other countries have developed nuclear weapons, and the global stockpile of nuclear weapons has grown to over 13,000. The possession and use of nuclear weapons have been a source of international tension and concern, as they have the potential to cause devastating destruction and long-term harm to human health and the environment. The international community has taken steps to address the proliferation of nuclear weapons and promote disarmament, including through treaties and nonproliferation agreements.
+ID: Nuclear
 count-movies: 295
 box-office: 82
 genres: Action, Drama, Thriller.
@@ -18,7 +19,7 @@ stars: xx
 dictionnary: atom bomb, a-bomb, nuclear, mass destruction, explosive, tnt, radiation, hiroshima, nagasaki, uranium, fission bomb, radioactive, plutonium, thermonuclear, gamma rays, x-rays, isotopes, gravity bomb, missiles.
 wordcloud: Nuclear-wordcloud.png
 wordcloud-alt: wordcloud-alt
-analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+analysis: Movie plots about the use of nuclear weapons have words directly relating to the weapons features like “bomb”, “nuclear”, “missile”, “radiation”, “weapon”, “explosive” and “time”, which probably relates to the very little time there is to diffuse a bomb. Then, vocabularies that evoke war, so the usage of nuclear weapons, are abundantly used in the movie plots, like “soviet”, “war”, “american”, “president”, “death”, “escape”. During the Cold War, the United States and Soviet Union competed in an arms race for atomic weapons, which explains the presence of the words “american” and “soviet”. “President” appears in movie plots because, in the US, only the president possessed the unique control of the nuclear launch authority. The word “scientist” also frequently appears, which recalls that nuclear power is a major scientific discovery above all.
 movie-name: Satellite in the Sky
 movie-year: 1956
 movie-poster: nuclear-poster.png

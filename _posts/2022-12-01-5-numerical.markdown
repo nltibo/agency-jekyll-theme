@@ -11,6 +11,7 @@ project-date: December 2022
 client: dlab
 category: Applied Data Analysis
 description: The fourth industrial revolution, also known as Industry 4.0, refers to the current trend of automation and data exchange in manufacturing technologies, including the Internet of Things (IoT), artificial intelligence (AI), and the integration of physical and digital systems. Industry 4.0 is expected to bring significant changes to the way businesses operate and people live, work, and communicate. It has the potential to drive economic growth, improve efficiency and productivity, and create new job opportunities, but it also raises concerns about the impact on employment and the potential for increasing inequality. The fourth industrial revolution is still in its early stages, and its full impact is yet to be seen. Governments, businesses, and individuals are working to understand and adapt to the changes brought about by Industry 4.0 and to shape its development in a way that benefits society as a whole.
+ID:  Num
 count-movies: 24
 box-office: 79
 genres: Drama, Comedy, Thriller
@@ -18,7 +19,7 @@ stars: xx
 dictionnary: application, blog, browser,  cad,  cam,  cyberspace,  data,  database,  debug,  digital,  disk,  download,  e-mail,  ethernet, facebook,  fax,  geek,  net,  hackers,  hard disk,  hardware,  informatics,  internet,  ipad,  joystick,  jpeg,  mail, keyboard, keypad,  laptop,  operating system,  programmer, software,  spam, google, youtube, yahoo,  video,  web,  www, worldwide web.
 wordcloud: Num-wordcloud.png
 wordcloud-alt: worcloud-alt
-analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+analysis: In movie plot summaries associated with the numerical revolution, the most prominent words  are “facebook”, “Mark”, certainly naming Mark Zuckerbeg, and “software”. Intriguingly, a non-negligible number of names emerge from the word cloud plot, such as “Eduardo”, “Alisha”, “Christy”, “Sean”, “Ravi”, “Abhay”. These names all correspond to important inventors and figures in numerical innovation and revolution. For example, Eduardo Saverin is one of the cofounders of facebook, and Sean Parker was Facebook's first president. Vocabularies associated with research and studies like “company”, “Harvard”, “university” and “college” also appear, which demonstrates that IT and numerical domains are in constant evolution and are an important part of scientific and engineering research today.
 movie-name: Take this Lollipop
 movie-year: 2011
 movie-poster: num-poster.png
