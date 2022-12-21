@@ -15,6 +15,7 @@ count-movies: 24
 box-office: 79
 genres: Drama, Comedy, Thriller
 stars: xx
+dictionnary: application, blog, browser,  cad,  cam,  cyberspace,  data,  database,  debug,  digital,  disk,  download,  e-mail,  ethernet, facebook,  fax,  geek,  net,  hackers,  hard disk,  hardware,  informatics,  internet,  ipad,  joystick,  jpeg,  mail, keyboard, keypad,  laptop,  operating system,  programmer, software,  spam, google, youtube, yahoo,  video,  web,  www, worldwide web.
 wordcloud: Num-wordcloud.png
 wordcloud-alt: worcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.

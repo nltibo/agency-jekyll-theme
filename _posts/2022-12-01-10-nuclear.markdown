@@ -15,6 +15,7 @@ count-movies: 295
 box-office: 82
 genres: Action, Drama, Thriller.
 stars: xx
+dictionnary: atom bomb, a-bomb, nuclear, mass destruction, explosive, tnt, radiation, hiroshima, nagasaki, uranium, fission bomb, radioactive, plutonium, thermonuclear, gamma rays, x-rays, isotopes, gravity bomb, missiles.
 wordcloud: Nuclear-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.

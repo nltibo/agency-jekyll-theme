@@ -15,6 +15,7 @@ count-movies: 489
 box-office: 59
 genres: Comedy, Drama, Thriller.
 stars: xx
+dictionnary: camera,  cd, phone, computer,  disk,  display,  car,  fax,  fiber optic,  laptop,  laser,  robot,  printer,  radio television, photography, radioactivity, cd-rom, telephone, telegraph, automobile, computer, nuclear power, wireless, fiber optic,  electronics, bio-tech.
 wordcloud: Tech-wordcloud.png
 wordcloud-alt: worcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.

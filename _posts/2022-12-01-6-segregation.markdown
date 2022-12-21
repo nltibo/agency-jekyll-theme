@@ -15,6 +15,7 @@ count-movies: 75
 box-office: 25
 genres: Drama, Documentary, Crime
 stars: xx
+dictionnary: racial, ethnic groups, apartheid, nelson mandela, racial discrimination, jim crow laws, white supremacy, interracial marriage, rosa parks, martin luther king jr, civil rights, negro, discrimination, segregation, violance, colored districts, ku klux klan, kkk.
 wordcloud: Segregation-wordcloud.png
 wordcloud-alt: worcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.

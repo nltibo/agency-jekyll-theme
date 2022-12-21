@@ -15,6 +15,7 @@ count-movies: 127
 box-office: 30
 genres: Drama, Comedy, Action.
 stars: xx
+dictionnary: ww1, world war 1, 1914, 1918, allies, armistice, central powers, conscription, front line, joffre, kaiser, marne, mustard gas, no man’s land, pétain, u boats, somme, treaty of versailles, trench, verdun, western front, zeppelin, artillery, doughboy, duckboards, dreadnought, mobilize, prussia, schlieffen plan, tsar, archduke ferdinand, red baron, big four, christmas truce, wilson, lusitania, battalion, triple entente, great war, flamethrower, mills bomb, storm troop, ace, recco, tailspin, boche, wipers, kiwi, aussie, cootie, flanders, mud, war effort, league of nations.
 wordcloud: WW1-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.

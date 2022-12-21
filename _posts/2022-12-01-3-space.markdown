@@ -15,6 +15,7 @@ count-movies: 410
 box-office: 91
 genres: Adventure, Comedy, Action.
 stars: xx
+dictionnary: aeronautics, alan shepard, apollo, cape canaveral, gemini, heat shields, houston, john glenn, laika, launch, lunar module, mercury, michael collins, mission control, nasa, neil armstrong, orbit, planet, rocket, satellite, scott carpenter, sergei korolev, solar system, space, space exploration, space race, sputnik, superpowers, test pilot,  usa,  urss, yuri gagarin.
 wordcloud: Space-wordcloud.png
 wordcloud-alt: worcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.

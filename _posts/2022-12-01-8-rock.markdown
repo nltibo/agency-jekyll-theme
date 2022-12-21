@@ -15,6 +15,7 @@ count-movies: 1082
 box-office: 21
 genres: Drama, Comedy, Musical.
 stars: xx
+dictionnary: rock and roll, jazz, rhythm, saxophone, electric guitars, boswell sisters, rosette, gramophone, swing, race music, elvis presley, johnyy cash, music, musician, singer,  band, album, vinyl, rock star, music award, sing, tour.
 wordcloud: Rock-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.

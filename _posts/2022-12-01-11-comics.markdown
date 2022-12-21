@@ -15,6 +15,7 @@ count-movies: 478
 box-office: 135
 genres: Action, Thriller, Drama.
 stars: xx
+dictionnary: superman, supervillains, superhero, hero, kryptonite, clark kent, gotham, warner bros, walt disney, mickey mouse, donald duck, technicolor, batman, super power, marvel, dc, wonder woman, thor, catwoman, batsuit, batmobile, shadow, dick tracy, flash gordon, teleportation, justice, super evil, cartoons, fight evil, masked, iron man.
 wordcloud: Comics-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.

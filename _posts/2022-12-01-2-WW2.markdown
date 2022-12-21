@@ -15,6 +15,7 @@ count-movies: 437
 box-office: 53
 genres: Drama, War, Action.
 stars: xx
+dictionnary: allies, allied, auschwitz, bombardment, battleship, bailey bridge, blitzkrieg, churchill, d-day, dunkirk, doolittle, de gaulle, english channel, eisenhower, enigma, flying tigers, free french, nazi, helmet, hiroshima, invasion, luftwaffe, manhattan project, midway, pearl harbor, normandy, nagasaki, panzer, roosevelt, rangers, resistance, truman, red army, stalin, soviets, tank, v-1 rocket, doodlebugs, world war ii, ww2, hitler, air raid, shelter, siren, battle of britain, evacuee, evacuation, gas mask, spitfire, 1939, 1945, 1940, 1941, 1942, 1943, 1944, b-17.
 wordcloud: WW2-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
