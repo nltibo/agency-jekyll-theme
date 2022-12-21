@@ -13,9 +13,13 @@ category: Applied Data Analysis
 description: Rock music has a long and rich history that dates back to the 1950s. It originated in the United States, drawing heavily from blues and country music, and it quickly gained popularity around the world. In the 1960s, rock music underwent a major transformation with the emergence of bands who helped to popularize the genre and establish it as a mainstream form of music. In the 1970s and 1980s, rock music diversified and spawned numerous subgenres, such as hard rock, heavy metal, punk, and alternative rock, each with its own distinct sound and style. Today, rock music remains a popular and influential genre, with many contemporary artists drawing inspiration from its rich history and evolving it in new and innovative ways.
 count-movies: 1082
 box-office: 21
-genres: xx
+genres: Drama, Comedy, Musical.
 stars: xx
 wordcloud: Rock-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+movie-name: Blueberry Hill
+movie-year: 1988
+movie-poster: rock-poster.png
+movie-trailer: https://www.youtube.com/embed/2x-ijbSeQAw
 ---

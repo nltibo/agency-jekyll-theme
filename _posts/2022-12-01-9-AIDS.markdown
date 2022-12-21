@@ -13,9 +13,13 @@ category: Applied Data Analysis
 description: AIDS, or Acquired Immunodeficiency Syndrome, is a disease caused by the human immunodeficiency virus (HIV). HIV attacks and weakens the immune system, making it difficult for the body to fight off infections and diseases. AIDS is the most severe stage of HIV infection, and it occurs when the immune system is severely damaged and the body is unable to fight off infections. AIDS can be transmitted through the exchange of certain bodily fluids, such as blood, semen, vaginal secretions, and breast milk. It can also be transmitted from an HIV-positive mother to her baby during pregnancy, childbirth, or breastfeeding. There is currently no cure for AIDS, but antiretroviral therapy can effectively manage HIV infection and prevent the development of AIDS.
 count-movies: 215
 box-office: 22
-genres: xx
+genres: Drama, Comedy, Romance.
 stars: xx
 wordcloud: AIDS-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+movie-name: Come December
+movie-year: 2006
+movie-poster: AIDS-poster.png
+movie-trailer: error.png
 ---

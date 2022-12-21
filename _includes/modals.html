@@ -33,18 +33,22 @@
                             <p class="text-self">{{ post.analysis }}</p>
 
                             <p class="text-center" style="margin-bottom:5px;">Most representative movie :</p>
-                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                            <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">{{ post.movie-name }} ({{ post.movie-year }})</p>                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content">
                                         <i class="fa-solid fa-circle-play fa-3x"></i>
                                     </div>
                                 </div>
-                                <img style="width:400px;height:225px;cursor:pointer" src="img/portfolio/{{ post.img }}" />
+                                <img style="width:250px;height:300px;cursor:pointer" src="img/posters/{{ post.movie-poster }}" />
                             </div>
                             <div style="display:none">
-                                <iframe style="width:400px;height:225px;border:none" src="https://www.youtube.com/embed/9CiW_DgxCnQ?start=73" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
+                                {% if post.movie-trailer == "error.png" %}
+                                    <img style="width:400px;height:225px;cursor:pointer" src="img/{{ post.movie-trailer }}" />
+                                    {% else %}
+                                        <iframe style="width:400px;height:225px;border:none" src="{{ post.movie-trailer }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
+                                {% endif %}
                             </div>
-
+                            
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>

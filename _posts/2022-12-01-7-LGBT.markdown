@@ -13,10 +13,13 @@ category: Applied Data Analysis
 description: The evolution of LGBTQ+ rights has been a long and ongoing process, with significant advancements and setbacks throughout history. In many societies, LGBTQ+ individuals have faced discrimination, persecution, and violence because of their sexual orientation or gender identity. However, there have also been significant efforts to promote equality and acceptance for LGBTQ+ people. In the 20th century, there were a number of major milestones in the fight for LGBTQ+ rights, including the Stonewall riots in 1969, which are considered a turning point in the modern LGBTQ+ rights movement. In the decades since, there have been many legal and cultural changes that have improved the lives of LGBTQ+ people, including the decriminalization of homosexuality in many countries, the legalization of same-sex marriage in numerous countries, and the increased representation and visibility of LGBTQ+ people in media and society. Despite these advancements, LGBTQ+ people still face discrimination and prejudice in many parts of the world, and the fight for equality and acceptance continues.
 count-movies: 316
 box-office: 10
-genres: xx
+genres: Drama, LGBT, Comedy.
 stars: xx
 wordcloud: LGBT-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
-
+movie-name: Greetings from Out Here
+movie-year: 1993
+movie-poster: LGBT-poster.png
+movie-trailer: error.png
 ---

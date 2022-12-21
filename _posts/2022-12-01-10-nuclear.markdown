@@ -13,9 +13,13 @@ category: Applied Data Analysis
 description: The nuclear weapon is a type of explosive device that utilizes nuclear reactions to release a tremendous amount of energy in the form of an explosion. The first nuclear weapon was developed by the United States during World War II as part of the Manhattan Project, and it was used to drop atomic bombs on the Japanese cities of Hiroshima and Nagasaki in 1945. Since then, several other countries have developed nuclear weapons, and the global stockpile of nuclear weapons has grown to over 13,000. The possession and use of nuclear weapons have been a source of international tension and concern, as they have the potential to cause devastating destruction and long-term harm to human health and the environment. The international community has taken steps to address the proliferation of nuclear weapons and promote disarmament, including through treaties and nonproliferation agreements.
 count-movies: 295
 box-office: 82
-genres: xx
+genres: Action, Drama, Thriller.
 stars: xx
 wordcloud: Nuclear-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+movie-name: Satellite in the Sky
+movie-year: 1956
+movie-poster: nuclear-poster.png
+movie-trailer: https://www.youtube.com/embed/BEUl7uYnNdU
 ---

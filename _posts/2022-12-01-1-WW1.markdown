@@ -13,9 +13,13 @@ category: Applied Data Analysis
 description: World War 1, also known as the Great War, was a global conflict that lasted from 1914 to 1918. It involved the majority of the world's nations, including all of the great powers, divided between the Allies and the Central Powers. The conflict arose mainly due to militarism, alliances, imperialism, and nationalism, and it resulted in millions of deaths and significant social, political, and economic changes. The war ended with the defeat of the Central Powers and the signing of the Treaty of Versailles, which imposed harsh penalties on Germany. The legacy of World War 1 continues to shape international relations and global politics to this day.
 count-movies: 127
 box-office: 30
-genres: xx
+genres: Drama, Comedy, Action.
 stars: xx
 wordcloud: WW1-wordcloud.png
 wordcloud-alt: wordcloud-alt
 analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+movie-name: 13 Men and a Gun
+movie-year: 1938
+movie-poster: WW1-poster.png
+movie-trailer: error.png
 ---
