@@ -6,40 +6,46 @@ title: The Gonios
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Clara Scherrer
+  pic: Clara
+  position: surname
+  alt: Clara picture
   social:
-    - title: twitter
+    - title: github
       url: #
-    - title: facebook
+    - title: linkedin
       url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+      
+- name: Nathan Decurnex
+  pic: Nathan
+  position: surname
+  alt: Nathan picture
   social:
-    - title: twitter
-      url: #
-    - title: facebook
+    - title: github
       url: #
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Noémie Chillier
+  pic: Noémie
+  position: surname
+  alt: Noémie picture
   social:
-    - title: twitter
+    - title: github
       url: #
-    - title: facebook
+    - title: linkedin
       url: #
-    - title: google-plus
+
+- name: Thibaut Hennel
+  pic: Thibaut
+  position: surname
+  alt: Thibaut picture
+  social:
+    - title: github
+      url: #
+    - title: linkedin
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -57,8 +63,9 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: École Polytechnique Fédérale de Lausanne
+  - line: Rte des Noyerettes, 1015 Ecublens
+  - line: MED building
 
 # Build settings
 markdown: kramdown

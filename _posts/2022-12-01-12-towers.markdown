@@ -1,0 +1,21 @@
+---
+title: Islamist Terrorism
+subtitle: ~2001-
+layout: default
+modal-id: 12
+date: 2022-12-01
+img: towers.png
+thumbnail: towers-thumbnail.png
+alt: image-alt
+project-date: December 2022
+client: dlab
+category: Applied Data Analysis
+description: Radical Islamic terrorism refers to the use of violence and intimidation by extremist groups or individuals who seek to promote their interpretation of Islam and establish an Islamic state or caliphate. These groups often target civilians, including Muslims who do not adhere to their ideology, as well as government and military targets. Radical Islamic terrorism has been a major global concern since the September 11th attacks in 2001, and it continues to pose a significant threat to national and international security. Many governments and international organizations have implemented strategies to combat radical Islamic terrorism, including military action, intelligence gathering, and diplomatic efforts to address the root causes of radicalization.
+count-movies: 80
+box-office: 21
+genres: xx
+stars: xx
+wordcloud: Towers-wordcloud.png
+wordcloud-alt: wordcloud-alt
+analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+---

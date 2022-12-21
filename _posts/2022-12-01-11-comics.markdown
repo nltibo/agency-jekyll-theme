@@ -1,0 +1,21 @@
+---
+title: Comics
+subtitle: ~1935-
+layout: default
+modal-id: 11
+date: 2022-12-01
+img: comics.png
+thumbnail: comics-thumbnail.png
+alt: image-alt
+project-date: December 2022
+client: dlab
+category: Applied Data Analysis
+description: Comics are a medium that tells stories through the use of sequential art, often in the form of panels containing illustrations and text. Comics have a long history dating back to the late 1800s, and have evolved over the years to include a variety of genres such as action, adventure, romance, and comedy. Comics are often serialized, with each issue building upon the events of previous issues to create a larger narrative. They can be published in a variety of formats, including physical comic books, graphic novels, and online webcomics. Comics have had a significant impact on popular culture, with many iconic characters and storylines being adapted into films, television shows, and other media.
+count-movies: xx
+box-office: xx
+genres: xx
+stars: xx
+wordcloud: Comics-wordcloud.png
+wordcloud-alt: wordcloud-alt
+analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+---

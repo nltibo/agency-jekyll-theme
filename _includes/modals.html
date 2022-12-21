@@ -1,5 +1,6 @@
  <!-- Portfolio Modals -->
- {% for post in site.posts %}
+{% assign posts_sorted = site.posts | sort: 'modal-id' %}
+{% for post in posts_sorted%}
     <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -16,18 +17,28 @@
                             <hr class="star-primary">
                             <!-- 600x450 pixels-->
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p class="text-self">{{ post.description }}</p>
-                            <p class="text-left">Number of movies classified as such : {{ post.count-movies }}</p>
-                            <p class="text-left">Mean Box-office revenue : {{ post.box-office }}</p>
-                            <p class="text-left">Main genres : {{ post.genres }}</p>
-                            <p class="text-left">Mean sentiment : {{ post.stars }} /5</p>
-                            <p class="text-left">Dictionnary used : {{ post.dictionnary }}</p>
-                            <!-- 600x450 pixels-->
-                            <img class="img-responsive img-centered" src="../img/wordcloud/{{ post.wordcloud }}" alt="{{ post.wordcloud-alt }}">
                             
+                            <p class="text-self">{{ post.description }}</p>
+                            
+                            <p class="text-left">Number of movies classified as such : {{ post.count-movies }}</p>
+                            <p class="text-left">Mean Box-office revenue (million dollars) : {{ post.box-office }}</p>
+                            <p class="text-left">Main genres : {{ post.genres }}</p>
+                            <p class="text-left">Mean sentiment (0:most negative,5:most positive) : {{ post.stars }} /5</p>
+                            <p class="text-left">Words used in dictionnary : {{ post.dictionnary }}</p>
+                            
+                            <p class="text-center" style="margin-bottom:5px;">Wordcloud :</p>
+                            <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">lexical field contained in the summaries</p>
+                            <!-- 600x450 pixels-->
+                            <img class="img-responsive img-centered" src="img/wordcloud/{{ post.wordcloud }}" alt="{{ post.wordcloud-alt }}">
                             <p class="text-self">{{ post.analysis }}</p>
 
+                            <p class="text-center" style="margin-bottom:5px;">Most representative movie :</p>
                             <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa-solid fa-circle-play fa-3x"></i>
+                                    </div>
+                                </div>
                                 <img style="width:400px;height:225px;cursor:pointer" src="img/portfolio/{{ post.img }}" />
                             </div>
                             <div style="display:none">

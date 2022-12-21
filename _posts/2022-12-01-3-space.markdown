@@ -1,0 +1,21 @@
+---
+title: Space Race
+subtitle: 1960-
+layout: default
+modal-id: 3
+date: 2022-12-01
+img: space.png
+thumbnail: space-thumbnail.png
+alt: image-alt
+project-date: December 2022
+client: dlab
+category: Applied Data Analysis
+description: The space race was a competition between the United States and the Soviet Union to explore and advance in the field of space exploration during the Cold War. The race began in the late 1950s and peaked in the 1960s, with both countries launching numerous spacecraft and sending astronauts into space. In 1961, the Soviet Union achieved a major milestone when Yuri Gagarin became the first human to orbit the Earth. The United States responded by launching the Apollo program, which ultimately succeeded in landing astronauts on the moon in 1969. The space race had significant implications for science and technology, as it spurred the development of new technologies and materials that have had a lasting impact. It also had political and cultural significance, as it became a symbol of the technological and ideological competition between the two superpowers.
+count-movies: 410
+box-office: 91
+genres: xx
+stars: xx
+wordcloud: Space-wordcloud.png
+wordcloud-alt: worcloud-alt
+analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+---

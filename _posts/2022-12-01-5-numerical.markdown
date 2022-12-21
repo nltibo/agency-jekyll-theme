@@ -1,0 +1,21 @@
+---
+title: Industry 4.0
+subtitle: ~2000-
+layout: default
+modal-id: 5
+date: 2022-12-01
+img: Num.png
+thumbnail: Num-thumbnail.png
+alt: image-alt
+project-date: December 2022
+client: dlab
+category: Applied Data Analysis
+description: The fourth industrial revolution, also known as Industry 4.0, refers to the current trend of automation and data exchange in manufacturing technologies, including the Internet of Things (IoT), artificial intelligence (AI), and the integration of physical and digital systems. Industry 4.0 is expected to bring significant changes to the way businesses operate and people live, work, and communicate. It has the potential to drive economic growth, improve efficiency and productivity, and create new job opportunities, but it also raises concerns about the impact on employment and the potential for increasing inequality. The fourth industrial revolution is still in its early stages, and its full impact is yet to be seen. Governments, businesses, and individuals are working to understand and adapt to the changes brought about by Industry 4.0 and to shape its development in a way that benefits society as a whole.
+count-movies: 24
+box-office: 79
+genres: xx
+stars: xx
+wordcloud: Num-wordcloud.png
+wordcloud-alt: worcloud-alt
+analysis: Here the analysis of the wordcloud and if we are satisfied of the classification.
+---

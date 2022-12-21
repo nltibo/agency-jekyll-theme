@@ -79,7 +79,13 @@ h6 {
     margin: 0 auto;
     text-align:center;
     display:block;
-    width: 
+}
+
+.wordcloud{
+    text-align: center;
+    display:block;
+    padding: 0;
+    border-collapse:collapse;
 }
 
 .bg-light-gray {
@@ -653,6 +659,9 @@ section h3.section-subheading {
     }
 }
 
+.team-container {
+    justify-content: space-evenly;
+}
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -660,7 +669,6 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
 }
 
 .team-member h4 {
