@@ -52,14 +52,22 @@ people:
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket 
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
+
+#DLAB
+dlab: https://dlab.epfl.ch/
+ada: https://dlab.epfl.ch/teaching/fall2022/cs401/
+bob: https://people.epfl.ch/robert.west
+epfl: https://www.epfl.ch/en/
+
+#data
+corpus: http://www.cs.cmu.edu/~ark/personas/
+paper: http://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf
 
 # Postal address (add as many lines as necessary)
 address:
