@@ -8,27 +8,188 @@
   </div>
   <div class="row">
     <div class="col-lg-12">
-      <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Ratio of number of movies belonging to an event to total number movies for each year</p>
-      <p class="text-self" style="margin-bottom:75px;">analysis</p>
+      <p class="text-self">All following plots are interactive. Explore the data by hovering and clicking to learn about the values displayed.</p>
     </div>
   </div>
+  <!-- Ratio vs time -->
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Evolution of the number of movies belonging to an event over the years</p>
+    </div>
+    <div class="col-lg-12">
+      <p class="text-self">With the following subplot, we can see of how historical events could influence the theme of movies released and the interests of our societies.</p>
+    </div>
+    <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
+      <iframe style="height:650px;" class="figure img-responsive" src="plots/count_movies.html" title="Count subplots"></iframe>
+    </div>
+    <div class="col-lg-12">
+      <p class="text-self" style="margin-bottom:75px;">
+        <br>
+        <br>
+        For the historical films narrating WWII, an important peak in frequency appears from 1940 to 1950, during the last few years of the war itself and the years following it. These probably are propaganda movies which were widely shown to the public during the war; the Nazis were known to use films to create an image of the “national community”, whereas the allied countries portrayed them as cruel enemies in their movies. 
+        <br>
+        Movies about the technological and numerical revolution significantly increased from the 1990s onwards, which were the years that marked the beginning of a sequence of technological revolutions.
+        <br>
+        The number of movies telling the story of LGBTQ+ emancipation tripled from 1970 to 2000 and then doubled again for the following years. This coincides with the beginning of LGBTQ movement and then, the annual observance of LGBT History Month in the United States which started in 1994.
+        <br>
+        For space race movies, a first peak appears between 1950 and the end of 1970s, which could be due to the first satellites sent into orbit (1957), the first pilot-controlled space flight (1961) and the Apollo 11's successful mission in 1969. The frequency of these movies then increases from the 1980s onwards and a more important peak appears between 2005 and 2010, which were the periods where habitable exoplanets were discovered. 
+        <br>
+        Rock movies occurrence start around 1930 which corresponds to the early origin of the rock and roll music. Then between 1940-1950 correspond to the emergence the rock and roll as a define music. 
+        <br>
+        The number of movies corresponding to the Nuclear historical period oscillate during time. Indeed, the first occurrence of the nuclear power in movies was in 1950 which correlates with the first atomic bomb of Hiroshima and Nagasaki. Then, this "new weapons" evolved with time until 1986 where there is a second peak which coincides in time with Chernobyl event. 
+        <br>
+        Lastly, film about Twins Towers have the main occurrence after 2005 which are years following the event, during which the world was still recovering from the traumatic event, and the US was actively combatting Taliban in Afghanistan. However, we can observe some occurrences before 2001 which can be associate with other terrorist movies.
+        <br>
+        <br>
+        Finally, we saw that historical events and movies are correlated in time, so movies themes are adapted depending on the socio-political environment.
+      </p>
+    </div>
+  </div>
+  <!-- Ratio vs time -->
+
+  <!-- Sentiment -->
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Mean sentiment score by event</p>
+      <p class="text-self">Next, we want to see the sentiment affiliated with the portrayed event. 
+        If we assume that the plot summary translates well the global sentiment of the movie, we can apply textual sentiment analysis to them. 
+        We used a famous Hugging Face sentiment analyser. 
+        The only problem was that these kinds of analysers do not work for long paragraphs. 
+        We thus tokenized our summaries by sentence, feed each sentence to the sentiment analyser, and apply an average of these grades weighted by their respective uncertainty score. 
+        By doing so, we obtain a sentiment score as a number of stars ranging from 1 (bad) to 5 (good) for each movie.
+      </p>
+    </div>
+    <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
+      <iframe class="figure img-responsive" src="plots/sentiment.html" title="Mean sentiment score"></iframe>
+    </div>
+    <div class="col-lg-12">
+      <p class="text-self" style="margin-bottom:75px;">The sentiment graph does not show any significant events portrayed exceptionally well or exceptionally poorly. 
+        All events fall around 3.5, which is slightly above the mid-point which is 3. 
+        Segregation, LGBT, Rock and Comics may be slightly higher, but their uncertainty bars are too wide to draw any meaningful conclusions. 
+        This plot suggests that all events can be both positively and negatively portrayed, but on average are rated at 3.5 out of 5.</p>
+    </div>
+  </div>
+  <!-- Sentiment -->
+
+  <!-- Cosine matrix -->
   <div class="row">
     <div class="col-lg-12">
       <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Matrix of cosine distance between lexical fields of events</p>
-      <p class="text-self" style="margin-bottom:75px;">analysis</p>
+    </div>
+    <div class="col-lg-12">
+      <p class="text-self">
+        Let's now analyse how the plot summaries are related through NLP analysis. The first and simplest approach is to analyse the plot summaries through the TF-IDF matrix.
+        <br>
+        To capture how different they are from eachother, we will construct the TFIDF matrix only from summaries included in only one of the categories. We also treated the summaries with current NLP techniques to reduce the sparsity of the TFIDF matrix including Latent Semantic Analysis. The following heatmap represents the cosine distance between the median latent semantic representation of summaries in each category. The idea is to compare global lexical fields used in the plot summaries of each event.
+      </p>
+    </div>
+    <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
+      <iframe style="height:825px" class="figure img-responsive" src="plots/cosines.html" title="Cosine matrix"></iframe>
+    </div>
+    <div class="col-lg-12">
+      <p class="text-self" style="margin-bottom:75px;">
+        Cosine distance ranges from 0 to 2 and measures how different our summary embeddings are: the bigger the distance, the farthest the summaries are.
+        <br>
+        The Numerical Revolution summaries stand out significantly from other summaries. Some categories have more in common than others, such as Rock with Tech, AIDS or Comics, and Nuclear with Space. Although this analysis has potential, it may require heavier pre-processing before showing anything. Further clustering approaches could bring predominant topics to light. However, we will next explore a simpler and better tool to analyse the similarity between events.
+      </p>
     </div>
   </div>
+  <!-- Cosine matrix -->
+
+  <!-- PCA -->
   <div class="row">
     <div class="col-lg-12">
       <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Principal Component Analysis</p>
-      <iframe class="figure img-responsive" src="3DPCA.html" title="3D PCA"></iframe>  
-      <p class="text-self" style="margin-bottom:75px;">analysis</p>
+      <p class="text-self">Our technique to identify events should produce scores that are not so much correlated with eachother. It happens almost by construction: a WW2 movie should have a high WW2 score and a low score in all other categories. But in practice, it does not necessarily happen because of two possible reasons:
+        <ol class="intext">
+            <li>Movies can actually include several or parts of events we try to describe.</li>
+            <li>Even if our developed technique is very specific (high precision in general), it could fail in edge cases.</li>
+        </ol>
+      </p>
+      <p class="text-self">
+        The following graph aims to observe:
+        <ol type="a" class="intext">
+            <li>The amount of spread (variance) inside each category relative to the others.</li>
+            <li>The inter-event correlations. Correlations will highlight a sense of similarity between the events.</li>
+        </ol>
+      </p>
+      <p class="text-self">
+        The tool we used is Principle Component Analysis (PCA). Wow ! but PCA is not used for dimension reduction? Yes, but exactly like linear regression, if we manipulate well the tool and the data, we can create other meaningful interpretations. 
+        In our PCA, we will use movies as data points and the normalized event score we defined earlier as features. Note that we do not include any other description feature.
+        <br>
+        The following plot shows all the movies, projected onto the three most significant principal components. The scores per event axis are also projected onto this space and scaled up to be seen. What is interesting about applying PCA to already non very correlated data is that we will only underlie the movies that are interesting to us: movies that can portray several events. These movies will help us to understand some links between multiple events. Movies appearing only in any of the events or in only one category will be respectfully at the origin or along a basis projected vector. But the structure built around the event scores is the thing to look out for because it will automatically and directionally group them by correlation score.
+      </p>
+    </div>
+      <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
+      <iframe class="figure img-responsive" src="plots/PCA.html" title="3D PCA"></iframe>  
+    </div>
+    <div class="col-lg-12">
+      <p class="text-self" style="margin-bottom:75px;">The 3D PCA projection underlies well some preferred directions towards the events themself as expected. Events that appear far away from the origin show that they contain more spread. This spread can be understood as the strength with which a movie is portraying the event.
+        <br>
+        What is clearly more interesting is the groups of event scores pointing in the same direction. Features appearing in the same direction have a correlation link. This shows how the scores assigned to each summary translate into a relation between events. In practice, this arises from the fact that, for instance, plot summaries presenting words from the WW1 dictionary also have a tendency to contain words from the WW2 dictionary.
+        <br>
+        <br>
+        Finally, we can group the events by their shared themes. World War I and II fall in the same direction, representing war. Nuclear, Tower, Comics, and Space are also close to each other, making sense given that Nuclear refers to explosions and violent acts, like tower terrorism; Comics often possess superheroes or villains with destructive powers; and Space movies are often unreal, like comics, and comics can also take place in space. AIDS, LGBT, and Segregation all refer to some kind of minority, while Technology and Numerical Revolution show similarities in their concepts. Rock is the only event that stands out from the rest.
+        This analysis helps us to understand how our developed technique and assigned scores are related to each other. It also highlights interesting links between events that we didn't expect. This can be used to better understand the underlying structure of the data and to improve our technique further.
+      </p>
     </div>
   </div>
+  <!-- PCA -->
+  
+  <!-- LDA -->
   <div class="row">
     <div class="col-lg-12">
       <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">LDA topic modeling</p>
-      <p class="text-self" style="margin-bottom:75px;">analysis</p>
+    </div>
+    <div class="col-lg-12">
+      <p class="text-self">LDA is used to classify text in a document to a particular topic. It does so by building a topic per document model and words per topic model, modeled as Dirichlet distributions, which is where its name Latent Dirichlet Allocation comes from.</p>
+    </div>
+    <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
+      <iframe style="height:870px" class="figure img-responsive" src="plots/lda.html" title="LDA"></iframe>
+    </div>
+    <div class="col-lg-12">
+      <p class="text-self">Since LDA detects the main topics in each plot summary, it could be interesting to output the list of keywords that classified a given plot into the dominant topic detected by the model. 
+        If the topics detected correspond to the historical events used to select the movie plot summaries used in the LDA, then the keywords used for topic detection should correspond with each historical event's dictionnary. 
+        Therefore, a new column Keywords is created into the df_movie_events dataframe using the piece of code below. 
+        We will also detect the dominant topic in each movie plot summary. 
+        As the concept of LDA assumes, each document is made up of a mixture of different topics. 
+        In our case, we choose 12 topics in total, one per historical event previously defined in our dictionnaries. 
+        Those topics then generate words based on their probability distribution. 
+        Suppose a plot summary is made up of 70% of topic 1 and of other topics distributed in different ways (0.2% topic 2, 0.05% topic 3...), we are trying to find that dominant topic for each document using the following function.
+        <br>
+        <br>
+        Here are the 12 dominant topics are plotted using a PCA. LDA model doesn’t give a name to the group of words defining a topic, we need to interpret them and manually name them. Here are suggestions of themes each topic demonstrates :
+        <ul class="intext">
+          <li>Topic 1: Family and friendship theme</li>
+          <li>Topic 2: Superhero fight against evil theme</li>
+          <li>Topic 3: Nuclear war theme</li>
+          <li>Topic 4: World War, potentially WWII theme</li>
+          <li>Topic 5: Technological revolutions theme (for Space and IT)</li>
+          <li>Topic 6: Fantasy, magical theme</li>
+          <li>Topic 7: Alien invasion and extra-terrestrial war theme</li>
+          <li>Topic 8: Superhero theme</li>
+          <li>Topic 9: Superman theme</li>
+          <li>Topic 10: Christmas theme</li>
+          <li>Topic 11: Space and tech race theme</li>
+          <li>Topic 12: Prison theme</li>
+        </ul>
+      </p>
+      <p class="text-self" style="margin-bottom:75px;">
+        Therefore, some of the topics detected by the LDA on the movies portraying the historical events analyzed throughout this project describe some of these historical events. 
+        For example, topic 4 contains vocabulary strongly relating to WWII such as "war", "world", "american", "peace", "soviet", "russian", "german", "united", "army", "destruction" or even "John" which might represent JFK or the famous WWII "Dear John" letters. 
+        The nuclear event seems to emerge in topic 3, since it contains words such as "nuclear", "power", "world", "enemy", "bomb", "attack", "scientist", "destroy" and much more. 
+        Space race and technology themes seem to have been combined together in topics 5 showing words such as "www", "http", "moon", "martial" or "passengers". 
+        However, topics 11 and 7 narrow down to space and extra-terrestrial themes with vocabularies like "race", "launched", "pod", "android" (the robot with human appearance) or "gravity" for topic 11 and "earth", "planet", "space", "spaceship", "alien" or "orbit" for topic 7. 
+        <br>
+        It seems that the classification of movies into historical events done using manually defined dictionnaries worked properly.
+      </p>
+    </div>
+  </div>
+  <!-- LDA -->
+  <!-- conclusion -->
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="text-self">conclusion + link to github</p>
     </div>
   </div>
 </section>

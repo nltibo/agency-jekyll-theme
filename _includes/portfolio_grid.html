@@ -7,7 +7,19 @@
                     <h3 class="section-subheading text-muted">Movies portray a particular historical event</h3>
                 </div>
             </div>
-            <p class="text-self">Here an explanation on how we divided the dataset in different categories</p>
+            <div class="row">
+            <p class="text-self" style="margin-bottom:25px;">
+                To classify movies as depicting a particular event, we created ‘<cite style="font-style:italic;">dictionaries</cite>’. These are lists of words that are specific to a historical event. These events are either defined by a finite period of time (e.g. World War I) or are movements that appeared at a certain time and then evolved in a continuous manner throughout the years and eventually reached an end. 
+                <br>
+                The aim here is to parse the summary plot of each movie through these dictionaries in order to identify if the movie is related to the event either in his subject or his decorum. With that goal in mind, we chose some events that seem most recognizable in the summaries, using their different lexical fields.
+                <br>
+                To associate a movie with an event we first count the number of times each word in the dictionary occurs in its plot summary. Then we decide to assign the movie to the corresponding historical event if the word count is greater than a hand-picked threshold.
+                <br>
+                This threshold is designed to take into account the size of our dictionaries in order to improve the specificity and sensitivity of our classification method. When the dictionary is big, more words can be identified in each summary, leading to more summaries classified as the corresponding historical event. To avoid this bias, we penalized bigger dictionaries by performing a rescaled min-max normalization on their length. This coefficient was then added to a common baseline threshold. By doing so, movies’ word count would need to reach a bigger threshold for events with bigger dictionaries.
+                <br>
+                We performed a sanity check by labelling a small portion of the data and analyzing the precision-recall curve and f1 scores for our dictionary search technique. This enabled us to verify the accuracy of our classifier and to determine the optimal threshold value.
+            </p>
+            </div>
             <div class="row">
                 {% assign posts_sorted = site.posts | sort: 'modal-id' %}
                 {% for post in posts_sorted%}
