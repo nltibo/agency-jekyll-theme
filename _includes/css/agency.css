@@ -36,7 +36,6 @@ iframe.figure {
     font-style:italic;
     margin-bottom:5px;
     text-align: center;
-
     color: #{{ site.data.template.color.muted }};
 }
 
