@@ -4,27 +4,22 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Analysis</h2>
-        <h3 class="section-subheading text-muted">Interactive plots</h3>
+        <h3 class="section-subheading text-muted" style="margin-bottom:35px;">Observations, plots and results</h3>
+        <h3 class="section-subheading text-muted">
+          All following plots are interactive; explore the data by hovering and clicking to learn about the values displayed.
+        </h3>
       </div>
     </div>
     
-    <div class="row">
-      <div class="col-lg-12">
-        <p class="text-self" style="margin-bottom:75px;">All following plots are interactive. Explore the data by hovering and clicking to learn about the values displayed.</p>
-      </div>
-    </div>
-
     <!-- Ratio vs time -->
     <div class="row">
       <div class="col-lg-12">
-        <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Evolution of the number of movies belonging to an event over the years</p>
+        <p class="text-title-plot">Evolution of the number of movies belonging to an event over the years</p>
       </div>
       <div class="col-lg-12">
         <p class="text-self">With the following subplot, we can see of how historical events could influence the theme of movies released and the interests of our societies.</p>
       </div>
-      <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
-        <iframe style="height:650px;" class="figure img-responsive img-centered" src="plots/count_movies.html" title="Count subplots"></iframe>
-      </div>
+      <iframe style="height:650px;" class="figure img-responsive" src="plots/count_movies.html" title="Count subplots"></iframe>
       <div class="col-lg-12">
         <p class="text-self" style="margin-bottom:75px;">
           <br>
@@ -53,7 +48,7 @@
     <!-- Sentiment -->
     <div class="row">
       <div class="col-lg-12">
-        <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Mean sentiment score by event</p>
+        <p class="text-title-plot">Mean sentiment score by event</p>
         <p class="text-self">Next, we want to see the sentiment affiliated with the portrayed event. 
           If we assume that the plot summary translates well the global sentiment of the movie, we can apply textual sentiment analysis to them. 
           We used a famous Hugging Face sentiment analyser. 
@@ -62,9 +57,7 @@
           By doing so, we obtain a sentiment score as a number of stars ranging from 1 (bad) to 5 (good) for each movie.
         </p>
       </div>
-      <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
-        <iframe class="figure img-responsive" src="plots/sentiment.html" title="Mean sentiment score"></iframe>
-      </div>
+      <iframe class="figure img-responsive" src="plots/sentiment.html" title="Mean sentiment score"></iframe>
       <div class="col-lg-12">
         <p class="text-self" style="margin-bottom:75px;">The sentiment graph does not show any significant events portrayed exceptionally well or exceptionally poorly. 
           All events fall around 3.5, which is slightly above the mid-point which is 3. 
@@ -77,7 +70,7 @@
     <!-- Cosine matrix -->
     <div class="row">
       <div class="col-lg-12">
-        <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Matrix of cosine distance between lexical fields of events</p>
+        <p class="text-title-plot">Matrix of cosine distance between lexical fields of events</p>
       </div>
       <div class="col-lg-12">
         <p class="text-self">
@@ -86,9 +79,7 @@
           To capture how different they are from eachother, we will construct the TFIDF matrix only from summaries included in only one of the categories. We also treated the summaries with current NLP techniques to reduce the sparsity of the TFIDF matrix including Latent Semantic Analysis. The following heatmap represents the cosine distance between the median latent semantic representation of summaries in each category. The idea is to compare global lexical fields used in the plot summaries of each event.
         </p>
       </div>
-      <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
-        <iframe style="height:825px" class="figure img-responsive" src="plots/cosines.html" title="Cosine matrix"></iframe>
-      </div>
+      <iframe style="height:825px" class="figure img-responsive" src="plots/cosines.html" title="Cosine matrix"></iframe>
       <div class="col-lg-12">
         <p class="text-self" style="margin-bottom:75px;">
           Cosine distance ranges from 0 to 2 and measures how different our summary embeddings are: the bigger the distance, the farthest the summaries are.
@@ -102,7 +93,7 @@
     <!-- PCA -->
     <div class="row">
       <div class="col-lg-12">
-        <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">Principal Component Analysis</p>
+        <p class="text-title-plot">Principal Component Analysis</p>
         <p class="text-self">Our technique to identify events should produce scores that are not so much correlated with eachother. It happens almost by construction: a WW2 movie should have a high WW2 score and a low score in all other categories. But in practice, it does not necessarily happen because of two possible reasons:
           <ol class="intext">
               <li>Movies can actually include several or parts of events we try to describe.</li>
@@ -123,9 +114,7 @@
           The following plot shows all the movies, projected onto the three most significant principal components. The scores per event axis are also projected onto this space and scaled up to be seen. What is interesting about applying PCA to already non very correlated data is that we will only underlie the movies that are interesting to us: movies that can portray several events. These movies will help us to understand some links between multiple events. Movies appearing only in any of the events or in only one category will be respectfully at the origin or along a basis projected vector. But the structure built around the event scores is the thing to look out for because it will automatically and directionally group them by correlation score.
         </p>
       </div>
-        <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
-        <iframe class="figure img-responsive" src="plots/PCA.html" title="3D PCA"></iframe>  
-      </div>
+      <iframe class="figure img-responsive" src="plots/PCA.html" title="3D PCA"></iframe>
       <div class="col-lg-12">
         <p class="text-self" style="margin-bottom:75px;">The 3D PCA projection underlies well some preferred directions towards the events themself as expected. Events that appear far away from the origin show that they contain more spread. This spread can be understood as the strength with which a movie is portraying the event.
           <br>
@@ -142,14 +131,12 @@
     <!-- LDA -->
     <div class="row">
       <div class="col-lg-12">
-        <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">LDA topic modeling</p>
+        <p class="text-title-plot">LDA topic modeling</p>
       </div>
       <div class="col-lg-12">
         <p class="text-self">LDA is used to classify text in a document to a particular topic. It does so by building a topic per document model and words per topic model, modeled as Dirichlet distributions, which is where its name Latent Dirichlet Allocation comes from.</p>
       </div>
-      <div class="col-lg-12" style="margin-left:20px;margin-right:20px;">
-        <iframe style="height:870px" class="figure img-responsive" src="plots/lda.html" title="LDA"></iframe>
-      </div>
+      <iframe style="height:870px" class="figure img-responsive" src="plots/lda.html" title="LDA"></iframe>
       <div class="col-lg-12">
         <p class="text-self">Since LDA detects the main topics in each plot summary, it could be interesting to output the list of keywords that classified a given plot into the dominant topic detected by the model. 
           If the topics detected correspond to the historical events used to select the movie plot summaries used in the LDA, then the keywords used for topic detection should correspond with each historical event's dictionnary. 
@@ -191,6 +178,9 @@
     <!-- LDA -->
     <!-- conclusion -->
     <div class="row">
+      <div class="col-lg-12">
+        <p class="text-title-plot">Conclusion</p>
+      </div>
       <div class="col-lg-12">
         <p class="text-self">conclusion + link to github</p>
       </div>
