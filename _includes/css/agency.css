@@ -316,10 +316,11 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+  
 
 header {
     text-align: center;
-    color: #fff;
+    color: rgba(254,209,54,.9);
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/popcorn.jpeg');
     background-position: center center;

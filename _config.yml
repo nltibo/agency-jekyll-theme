@@ -66,6 +66,7 @@ bob: https://people.epfl.ch/robert.west
 epfl: https://www.epfl.ch/en/
 
 #data
+repo: https://github.com/epfl-ada/ada-2022-project-thegonios
 corpus: http://www.cs.cmu.edu/~ark/personas/
 paper: http://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf
 

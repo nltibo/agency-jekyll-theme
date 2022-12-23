@@ -20,12 +20,12 @@
                             
                             <p class="text-self">{{ post.description }}</p>
                             
-                            <p class="text-self">Id used in plots of <cite style="font-style:italic;">Analysis</cite> section : {{ post.ID }}</p>
-                            <p class="text-self">Number of movies classified as such : {{ post.count-movies }}</p>
-                            <p class="text-self">Mean Box-office revenue (million dollars) : {{ post.box-office }}</p>
-                            <p class="text-self">Main genres : {{ post.genres }}</p>
+                            <p class="text-self"><strong>Id used in plots of <cite style="font-style:italic;">Analysis</cite> section :</strong> {{ post.ID }}</p>
+                            <p class="text-self"><strong>Number of movies classified as such :</strong> {{ post.count-movies }}</p>
+                            <p class="text-self"><strong>Mean Box-office revenue (million dollars) :</strong> {{ post.box-office }}</p>
+                            <p class="text-self"><strong>Main genres :</strong> {{ post.genres }}</p>
                             <!--<p class="text-left">Mean sentiment (0:most negative,5:most positive) : {{ post.stars }} /5</p>-->
-                            <p class="text-self" style ="margin-left:2.25em;text-indent:-1em">Words used in dictionnary for movie classification : {{ post.dictionnary }}</p>
+                            <p class="text-self" style="margin-left:30px;text-indent:-9px;"><strong>Words used in dictionnary for movie classification :</strong> {{ post.dictionnary }}</p>
                             
                             <p class="text-center" style="margin-bottom:5px;">Wordcloud :</p>
                             <p class="text-muted text-center" style="font-style:italic;margin-bottom:5px;">lexical field contained in the summaries</p>

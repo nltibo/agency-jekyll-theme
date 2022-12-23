@@ -11,7 +11,7 @@
       </div>
     </div>
     
-    <!-- Ratio vs time -->
+    <!-- Number vs time -->
     <div class="row">
       <div class="col-lg-12">
         <p class="text-title-plot">Evolution of the number of movies belonging to an event over the years</p>
@@ -22,21 +22,18 @@
       <iframe style="height:650px;" class="figure img-responsive" src="plots/count_movies.html" title="Count subplots"></iframe>
       <div class="col-lg-12">
         <p class="text-self" style="margin-bottom:75px;">
-          <br>
-          <br>
-          For the historical films narrating WWII, an important peak in frequency appears from 1940 to 1950, during the last few years of the war itself and the years following it. These probably are propaganda movies which were widely shown to the public during the war; the Nazis were known to use films to create an image of the “national community”, whereas the allied countries portrayed them as cruel enemies in their movies. 
-          <br>
-          Movies about the technological and numerical revolution significantly increased from the 1990s onwards, which were the years that marked the beginning of a sequence of technological revolutions.
-          <br>
-          The number of movies telling the story of LGBTQ+ emancipation tripled from 1970 to 2000 and then doubled again for the following years. This coincides with the beginning of LGBTQ movement and then, the annual observance of LGBT History Month in the United States which started in 1994.
-          <br>
-          For space race movies, a first peak appears between 1950 and the end of 1970s, which could be due to the first satellites sent into orbit (1957), the first pilot-controlled space flight (1961) and the Apollo 11's successful mission in 1969. The frequency of these movies then increases from the 1980s onwards and a more important peak appears between 2005 and 2010, which were the periods where habitable exoplanets were discovered. 
-          <br>
-          Rock movies occurrence start around 1930 which corresponds to the early origin of the rock and roll music. Then between 1940-1950 correspond to the emergence the rock and roll as a define music. 
-          <br>
-          The number of movies corresponding to the Nuclear historical period oscillate during time. Indeed, the first occurrence of the nuclear power in movies was in 1950 which correlates with the first atomic bomb of Hiroshima and Nagasaki. Then, this "new weapons" evolved with time until 1986 where there is a second peak which coincides in time with Chernobyl event. 
-          <br>
-          Lastly, film about Twins Towers have the main occurrence after 2005 which are years following the event, during which the world was still recovering from the traumatic event, and the US was actively combatting Taliban in Afghanistan. However, we can observe some occurrences before 2001 which can be associate with other terrorist movies.
+          For the historical films narrating <strong>WWII</strong>, an important peak in frequency appears from 1940 to 1950, during the last few years of the war itself and the years following it. These probably are propaganda movies which were widely shown to the public during the war; the Nazis were known to use films to create an image of the “national community”, whereas the allied countries portrayed them as cruel enemies in their movies. 
+          Movies about the <strong>digital revolution</strong> and <strong>industry 4.0</strong> significantly increased from the 1990s onwards, which were the years that marked the beginning of a sequence of technological revolutions.
+          
+          The number of movies telling the story of <strong>LGBTQ+</strong> emancipation tripled from 1970 to 2000 and then doubled again for the following years. This coincides with the beginning of LGBTQ+ movement and then, the annual observance of LGBT History Month in the United States which started in 1994.
+          
+          For <strong>space race</strong> movies, a first peak appears between 1950 and the end of 1970s, which could be due to the first satellites sent into orbit (1957), the first pilot-controlled space flight (1961) and the Apollo 11's successful mission in 1969. The frequency of these movies then increases from the 1980s onwards and a more important peak appears between 2005 and 2010, which were the periods where habitable exoplanets were discovered. 
+          
+          <strong>Rock</strong> movies occurrence start around 1930 which corresponds to the early origin of the rock and roll music. Then between 1940-1950 correspond to the emergence the rock and roll as a define music. 
+          
+          The number of movies corresponding to the <strong>Nuclear</strong> historical period oscillate during time. Indeed, the first occurrence of the nuclear power in movies was in 1950 which correlates with the first atomic bomb of Hiroshima and Nagasaki. Then, this "new weapons" evolved with time until 1986 where there is a second peak which coincides in time with Chernobyl event. 
+          
+          Lastly, movies about Twins Towers and more generally <strong>islamist terrorism</strong> have the main occurrence after 2005 which are years following the event, during which the world was still recovering from the traumatic event, and the US was actively combatting Taliban in Afghanistan. However, we can observe some occurrences before 2001 which can be associate with other terrorist movies.
           <br>
           <br>
           Finally, we saw that historical events and movies are correlated in time, so movies themes are adapted depending on the socio-political environment.
@@ -108,8 +105,7 @@
           </ol>
         </p>
         <p class="text-self">
-          The tool we used is Principle Component Analysis (PCA). Wow ! but PCA is not used for dimension reduction? Yes, but exactly like linear regression, if we manipulate well the tool and the data, we can create other meaningful interpretations. 
-          In our PCA, we will use movies as data points and the normalized event score we defined earlier as features. Note that we do not include any other description feature.
+          The tool we used is Principle Component Analysis (PCA), usually used for dimension reduction, but here setting movies as data points and the normalized event score we defined earlier as features, we can interpret this method in a different way.
           <br>
           The following plot shows all the movies, projected onto the three most significant principal components. The scores per event axis are also projected onto this space and scaled up to be seen. What is interesting about applying PCA to already non very correlated data is that we will only underlie the movies that are interesting to us: movies that can portray several events. These movies will help us to understand some links between multiple events. Movies appearing only in any of the events or in only one category will be respectfully at the origin or along a basis projected vector. But the structure built around the event scores is the thing to look out for because it will automatically and directionally group them by correlation score.
         </p>
@@ -186,9 +182,13 @@
           <br>
           Of course, our analysis remains sensitive to how we defined dictionaries and thresholds. Even if we checked the accuracy score, it is always possible to proceed in other ways. Comparing our results with the ones from alternative classification methods could be interesting to see how topics detection is impacted. 
           <br>
-          In conclusion, we can state that for any period of time, the cinema is likely to be directly influenced by the socio-political context of this same period. For further research, one could investigate if there is a shift in the perspective of an event as the socio-political context of the given event evolves over time.</p>
+          In conclusion, we can state that for any period of time, the cinema is likely to be directly influenced by the socio-political context of this same period. For further research, one could investigate if there is a shift in the perspective of an event as the socio-political context of the given event evolves over time.
+          <br><br>
+          To get an in depth look to our work, please check the project's <a href="{{ site.repo }}">github repository</a>. There, you will have acess to more plots, analyses and technical explanations of the methods we used.
+        </p>
       </div>
     </div>
+    <!-- conclusion -->
   </div>
 </section>
 <!-- /text-container -->
