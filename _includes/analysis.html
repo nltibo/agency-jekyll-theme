@@ -139,9 +139,7 @@
       <iframe style="height:870px" class="figure img-responsive" src="plots/lda.html" title="LDA"></iframe>
       <div class="col-lg-12">
         <p class="text-self">Since LDA detects the main topics in each plot summary, it could be interesting to output the list of keywords that classified a given plot into the dominant topic detected by the model. 
-          If the topics detected correspond to the historical events used to select the movie plot summaries used in the LDA, then the keywords used for topic detection should correspond with each historical event's dictionnary. 
-          Therefore, a new column Keywords is created into the df_movie_events dataframe using the piece of code below. 
-          We will also detect the dominant topic in each movie plot summary. 
+          If the topics detected correspond to the historical events used to select the movie plot summaries used in the LDA, then the keywords used for topic detection should correspond with each historical event's dictionnary.  
           As the concept of LDA assumes, each document is made up of a mixture of different topics. 
           In our case, we choose 12 topics in total, one per historical event previously defined in our dictionnaries. 
           Those topics then generate words based on their probability distribution. 
@@ -182,7 +180,13 @@
         <p class="text-title-plot">Conclusion</p>
       </div>
       <div class="col-lg-12">
-        <p class="text-self">conclusion + link to github</p>
+        <p class="text-self">By creating dictionaries, we tried to see how historical event are represented in the world of cinema. First, we saw that most of the event appeared for the first time on screen as the historic event begins. The evolution in cinema during time followed the time period of the historical event: WW2 is mostly expressed in an interval between 1940-1945. 
+          In contrast, LGBT continues to grow over time, as does the movement. Then, we saw that each dictionary was well defined specifically. Cosine matrix showed that summaries' lexical field of events are distant from each other which confirmed that classified events were different. 
+          Lastly, the PCA and the LDA revealed similarities between our historical events which allow to assign them to one of the following three parent themes : sociological, war and world disasters. Despite this connection, each historical event had specificity which made it possible to distinguish them. 
+          <br>
+          Of course, our analysis remains sensitive to how we defined dictionaries and thresholds. Even if we checked the accuracy score, it is always possible to proceed in other ways. Comparing our results with the ones from alternative classification methods could be interesting to see how topics detection is impacted. 
+          <br>
+          In conclusion, we can state that for any period of time, the cinema is likely to be directly influenced by the socio-political context of this same period. For further research, one could investigate if there is a shift in the perspective of an event as the socio-political context of the given event evolves over time.</p>
       </div>
     </div>
   </div>
